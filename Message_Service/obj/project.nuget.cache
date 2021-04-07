@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GcqQpbwnY7Ixm+ekBuvkXeaK4EDjQPQiM3s232D/pLcUe3io9zy2halA87J+LnYAyyVN1k7co7ddsFs4ctyATQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\StefanV\\Documents\\School\\S6\\Kwekker_MessageService\\Message_Service\\Message_Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\StefanV\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
