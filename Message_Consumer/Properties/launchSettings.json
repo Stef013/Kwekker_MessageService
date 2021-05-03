@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:58487",
-      "sslPort": 44342
+      "applicationUrl": "http://localhost:56504",
+      "sslPort": 44392
     }
   },
   "$schema": "http://json.schemastore.org/launchsettings.json",
@@ -12,15 +12,15 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "MessageProducer",
+      "launchUrl": "MessageConsumer",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Message_Service": {
+    "Message_Consumer": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "MessageProducer",
+      "launchUrl": "MessageConsumer",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
@@ -29,7 +29,7 @@
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/MessageProducer",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/MessageConsumer",
       "publishAllPorts": true,
       "useSSL": true
     }
