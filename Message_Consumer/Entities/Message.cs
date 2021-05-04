@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Message_Producer.Models
+namespace Message_Consumer.Entities
 {
     public class Message
     {
