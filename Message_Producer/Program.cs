@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using RabbitMQ.Client;
 using Message_Producer.RabbitMQ;
 
-namespace Message_Service
+namespace Message_Producer
 {
     public class Program
     {

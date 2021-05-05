@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "McKxnyVrj3BIvxnwOSjPEDzB6370HVQ7IbsagG1PbGJXvr88qvGvFPGmVMTTxWTckPGYhx/ZlypAuPRe06MgRQ==",
+  "dgSpecHash": "/JO7qU0Kx/fx1uomyPhkW91HcbjfLhnA/xwYTmb9WEYHAFiDy6/G7ckG2XVwaArbKfVeNustYclXm5lEaemtOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\StefanV\\Documents\\School\\S6\\Kwekker_MessageService\\Message_Service\\Message_Producer.csproj",
+  "projectFilePath": "C:\\Users\\StefanV\\Documents\\School\\S6\\Kwekker_MessageService\\Message_Producer\\Message_Producer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\StefanV\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\StefanV\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",

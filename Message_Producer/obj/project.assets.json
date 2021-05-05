@@ -223,11 +223,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\StefanV\\Documents\\School\\S6\\Kwekker_MessageService\\Message_Service\\Message_Producer.csproj",
+      "projectUniqueName": "C:\\Users\\StefanV\\Documents\\School\\S6\\Kwekker_MessageService\\Message_Producer\\Message_Producer.csproj",
       "projectName": "Message_Producer",
-      "projectPath": "C:\\Users\\StefanV\\Documents\\School\\S6\\Kwekker_MessageService\\Message_Service\\Message_Producer.csproj",
+      "projectPath": "C:\\Users\\StefanV\\Documents\\School\\S6\\Kwekker_MessageService\\Message_Producer\\Message_Producer.csproj",
       "packagesPath": "C:\\Users\\StefanV\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\StefanV\\Documents\\School\\S6\\Kwekker_MessageService\\Message_Service\\obj\\",
+      "outputPath": "C:\\Users\\StefanV\\Documents\\School\\S6\\Kwekker_MessageService\\Message_Producer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\StefanV\\AppData\\Roaming\\NuGet\\NuGet.Config",
