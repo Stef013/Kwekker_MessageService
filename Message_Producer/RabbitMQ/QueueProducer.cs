@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 using RabbitMQ.Client;
 using System.Text;
 using System.Threading;
-using Message_Producer.Models;
+using Message_Producer.Entities;
 namespace Message_Producer.RabbitMQ
 {
     public class QueueProducer
