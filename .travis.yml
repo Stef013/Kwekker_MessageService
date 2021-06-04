@@ -1,0 +1,21 @@
+language: csharp
+sudo: required
+mono: none
+dotnet: 3.1
+solution: Kwekker_MessageService.sln
+
+before_script: 
+- dotnet restore  
+
+script: 
+- dotnet build ".\Message_Producer" -c Release
+
+deploy:
+  provider: azure_web_apps
+  username: '%24KwekkerMessageProducer'
+  password: SgcHDdqY6bk7cSS8v6dCT5yRJgrKEGzTgBPQDaFlBJTZqQEh1alq9woi78zl
+  site: KwekkerMessageProducer
+  verbose: true
+  skip_cleanup: true
+  on:
+      branch: dev
