@@ -17,8 +17,8 @@ namespace Message_Consumer.DataAccess
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string mySqlConnectionStr = "server=localhost; port=3306; database=Kwekker_message; user=root; password=Pudace007; Persist Security Info=False; Connect Timeout=300";
-            optionsBuilder.UseMySql(mySqlConnectionStr, ServerVersion.AutoDetect(mySqlConnectionStr));
+            string connectionStr = "Server=tcp:kwekker-dbserver.database.windows.net,1433;Initial Catalog=Kwekker_Message;Persist Security Info=False;User ID=KwekkerAdmin;Password=6LqnuWWWVbV58He;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            optionsBuilder.UseSqlServer(connectionStr);
         }
     }
 }
