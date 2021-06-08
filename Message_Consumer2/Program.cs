@@ -10,7 +10,8 @@ namespace Message_Consumer
         {
             var factory = new ConnectionFactory
             {
-                Uri = new Uri("amqp://guest:guest@localhost:5672")
+                //Uri = new Uri("amqp://guest:guest@localhost:5672")
+                Uri = new Uri("amqps://pyyhgkww:G4oBiRYHjF5NSbPDSDsuZhKleI6ujAbw@kangaroo.rmq.cloudamqp.com/pyyhgkww")
             };
             using var connection = factory.CreateConnection();
             using var channel = connection.CreateModel();
