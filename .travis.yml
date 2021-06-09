@@ -9,9 +9,10 @@ before_script:
 
 script: 
 - dotnet build ".\Message_Producer" -c Release
+- dotnet build ".\Message_Consumer" -c Release
 
 deploy:
-  provider: azure_web_apps
+- provider: azure_web_apps
   username: '%24KwekkerMessageProducer'
   password: SgcHDdqY6bk7cSS8v6dCT5yRJgrKEGzTgBPQDaFlBJTZqQEh1alq9woi78zl
   site: KwekkerMessageProducer
@@ -19,3 +20,14 @@ deploy:
   skip_cleanup: true
   on:
       branch: dev
+- provider: azure_web_apps
+  username: '%24KwekkerMessageConsumer'
+  password: L8mN9Pr2CjE3GvNB8LBcLRhgP9p7k0GtY9bCmrY2DHjEmSacmrhqnNYFQjgF
+  site: KwekkerMessageConsumer
+  verbose: true
+  skip_cleanup: true
+  on:
+      branch: dev  
+
+  
+
