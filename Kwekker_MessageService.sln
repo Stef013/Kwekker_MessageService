@@ -5,12 +5,12 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Message_Producer", "Message_Producer\Message_Producer.csproj", "{BBE0765C-2174-4AC8-9AEE-B2EA4EE0047A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Message_Consumer", "Message_Consumer2\Message_Consumer.csproj", "{3D9B5EC5-F9B8-4761-983B-A2C196827BE4}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DCCABC33-507F-4739-BE94-5E18E48354F7}"
 	ProjectSection(SolutionItems) = preProject
 		.travis.yml = .travis.yml
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Message_Consumer", "Message_Consumer\Message_Consumer.csproj", "{A6AD74D5-579F-494A-A3B8-DB7D0E64DE4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +22,10 @@ Global
 		{BBE0765C-2174-4AC8-9AEE-B2EA4EE0047A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBE0765C-2174-4AC8-9AEE-B2EA4EE0047A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBE0765C-2174-4AC8-9AEE-B2EA4EE0047A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3D9B5EC5-F9B8-4761-983B-A2C196827BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D9B5EC5-F9B8-4761-983B-A2C196827BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D9B5EC5-F9B8-4761-983B-A2C196827BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D9B5EC5-F9B8-4761-983B-A2C196827BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6AD74D5-579F-494A-A3B8-DB7D0E64DE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AD74D5-579F-494A-A3B8-DB7D0E64DE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AD74D5-579F-494A-A3B8-DB7D0E64DE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AD74D5-579F-494A-A3B8-DB7D0E64DE4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
