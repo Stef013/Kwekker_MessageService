@@ -86,3 +86,4 @@ C:\Users\StefanV\Documents\School\S6\Kwekker_MessageService\Message_Producer\bin
 C:\Users\StefanV\Documents\School\S6\Kwekker_MessageService\Message_Producer\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\StefanV\Documents\School\S6\Kwekker_MessageService\Message_Producer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\StefanV\Documents\School\S6\Kwekker_MessageService\Message_Producer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\StefanV\Documents\School\S6\Kwekker_MessageService\Message_Producer\obj\Debug\netcoreapp3.1\Message_Producer.csprojAssemblyReference.cache
