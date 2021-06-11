@@ -33,5 +33,30 @@ namespace Message_Producer.Services
                 return messages;
             }
         }
+
+
+        public bool delete(int messageID)
+        {
+            bool result;
+
+            try
+            {
+                var message = _context.Message
+                    .Single(m => m.ID == messageID);
+
+                _context.Message.Remove(message);
+                _context.SaveChanges();
+
+                result = true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                result = false;
+            }
+
+            return result;
+        }
+
     }
 }
