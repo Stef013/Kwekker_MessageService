@@ -43,11 +43,5 @@ namespace Message_Producer.Controllers
         {
             producer.Publish(message);
         }
-
-        [HttpDelete("delete")]
-        public bool delete(int messageID)
-        {
-            return messageService.delete(messageID);
-        }
     }
 }
